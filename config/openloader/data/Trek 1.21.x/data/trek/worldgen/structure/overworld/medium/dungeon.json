@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_overworld",
+  "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
+  "max_distance_from_center": 64,
+  "size": 1,
+  "spawn_overrides": {},
+  "start_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+          "absolute": -90
+      },
+      "max_inclusive": {
+          "absolute": -40
+      }
+  },
+  "start_pool": "trek:overworld/medium/dungeon",
+  "step": "underground_structures",
+  "terrain_adaptation": "bury",
+  "use_expansion_hack": false
+}

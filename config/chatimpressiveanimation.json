@@ -1,0 +1,7 @@
+{
+  "enableChatSendingAnimation": true,
+  "chatSendingAnimationFadeTime": 380,
+  "enableChatBarAnimation": true,
+  "chatBarAnimationFadeTime": 380,
+  "removeMessageIndicator": true
+}

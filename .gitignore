@@ -1,0 +1,13 @@
+/*
+
+!/config/
+!/kubejs/
+!/mods/
+
+!/resourcepacks/
+/resourcepacks/*
+!/resourcepacks/Create_K汉化包/
+
+!.gitignore
+!LICENSE
+!README.md

@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 48
+    },
+    "description": {
+      "text": "Arboria: ",
+      "color": "#FFB000",
+      "extra": [
+        {
+          "text": "Biome Enhancement",
+          "color": "#F8D830"
+        },
+        {
+          "text": " (1.21)",
+          "color": "#A0A0A0"
+        }
+      ]
+    }
+  }
+}

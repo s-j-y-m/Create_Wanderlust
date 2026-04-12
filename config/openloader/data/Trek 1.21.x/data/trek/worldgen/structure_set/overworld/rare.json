@@ -1,0 +1,81 @@
+{
+    "structures": [
+        {
+            "structure": "trek:overworld/rare/abandoned_castle_pillager",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/castle_ruins",
+            "weight": 1
+        },
+        {
+            "structure": "trek:overworld/rare/castle",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/elven_tree",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/island_village_1",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/maya",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/mushroom_island",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/pillager_mansion",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/portal_sword",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/pyramide_of_anubis",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/sleepy_island_3",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/sunken_city",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/tower_island",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/villager_castle",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/villager_fortress",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/villager_island",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/rare/wooden_manor",
+            "weight": 3
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 48,
+        "separation": 24,
+        "spread_type": "triangular",
+        "salt": 14357642,
+        "frequency_reduction_method": "default",
+        "frequency": 1
+    }
+}

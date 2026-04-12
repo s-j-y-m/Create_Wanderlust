@@ -1,0 +1,101 @@
+{
+    "structures": [
+        {
+            "structure": "trek:overworld/common/broken_well",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/cooking_pork",
+            "weight": 2
+        },
+        {
+            "structure": "trek:overworld/common/elven_pillar_small",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/elven_pillar_tall",
+            "weight": 1
+        },
+        {
+            "structure": "trek:overworld/common/forgotten_garden",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/frozen_remains",
+            "weight": 1
+        },
+        {
+            "structure": "trek:overworld/common/mushroom_house",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/mushroom_tree",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/plains_1",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/plains_2",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/plains_3",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/plains_4",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/ruins",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/small_desert_ruins",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/small_swamp_ruins",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/smoldering_altar",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/strange_stone",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/termite_hill",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/two_woods",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/well_pillager_small",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/well_pillager_tiny",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/common/well",
+            "weight": 3
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 24,
+        "separation": 12,
+        "spread_type": "triangular",
+        "salt": 14357600,
+        "frequency_reduction_method": "default",
+        "frequency": 1
+    }
+}

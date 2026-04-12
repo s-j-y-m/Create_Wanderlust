@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+      "minecraft:jungle",
+      "minecraft:bamboo_jungle",
+      "minecraft:sparse_jungle",
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:windswept_savanna"
+  ],
+  "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
+  "max_distance_from_center": 64,
+  "size": 2,
+  "spawn_overrides": {
+      "monster": {
+          "bounding_box": "full",
+          "spawns": [
+              {
+                  "type": "minecraft:pillager",
+                  "maxCount": 1,
+                  "minCount": 1,
+                  "weight": 1
+              }
+          ]
+      }
+  },
+  "start_height": {
+      "absolute": 0
+  },
+  "start_pool": "trek:overworld/medium/mangrove_watchtower",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": false
+}

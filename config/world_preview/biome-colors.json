@@ -1,0 +1,26 @@
+{
+  "youkaishomecoming:sakura_birch_forest": {
+    "r": 160,
+    "g": 25,
+    "b": 10,
+    "cave": false
+  },
+  "youkaishomecoming:sakura_taiga": {
+    "r": 30,
+    "g": 144,
+    "b": 154,
+    "cave": false
+  },
+  "terrablender:deferred_placeholder": {
+    "r": 250,
+    "g": 240,
+    "b": 234,
+    "cave": false
+  },
+  "youkaishomecoming:sakura_forest": {
+    "r": 38,
+    "g": 239,
+    "b": 247,
+    "cave": false
+  }
+}

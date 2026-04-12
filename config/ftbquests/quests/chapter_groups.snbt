@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "2FD943D922EE6214", title: "开端" }
+		{ id: "22E5384F9851107E", title: "动力起源" }
+		{ id: "320FCA47992E014A", title: "山川志" }
+		{ id: "4C1D5D990FFFACE7", title: "百味志" }
+		{ id: "45A5C0A88015BEFC", title: "远行志" }
+		{ id: "18F6D3A6AF0225BF", title: "百宝囊" }
+	]
+}

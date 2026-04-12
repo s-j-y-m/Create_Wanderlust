@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+      "minecraft:dark_forest",
+      "minecraft:birch_forest",
+      "minecraft:old_growth_birch_forest",
+      "minecraft:forest",
+      "minecraft:windswept_forest",
+      "minecraft:sparse_jungle",
+      "minecraft:taiga",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "minecraft:flower_forest",
+      "minecraft:savanna",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga",
+      "minecraft:grove"
+  ],
+  "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
+  "max_distance_from_center": 64,
+  "size": 1,
+  "spawn_overrides": {},
+  "start_height": {
+      "absolute": -2
+  },
+  "start_pool": "trek:overworld/medium/well_pillager_medium",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

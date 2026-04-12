@@ -1,0 +1,104 @@
+{
+	autofocus_id: "0A4D526F93554428"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "45127DB595B07126"
+	group: "2FD943D922EE6214"
+	icon: "minecraft:grass_block"
+	id: "45127DB595B07126"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "create:wrench"
+		id: "0A4D526F93554428"
+		rewards: [
+			{
+				id: "69344D3E24C2A2B3"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}
+			{
+				id: "30283A60A6AD7556"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "2B4CECCD9184488F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				count: 32
+				id: "4EB8AD2CA86499FE"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}
+			{
+				id: "43468EB9A9387572"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "7DD77B39F365B101"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "5AD5BAF8EA784DBF"
+				item: {
+					Count: 1
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "06E8F217CD5A4BB3"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		subtitle: "尽情的在这个世界开拓吧！"
+		tasks: [{
+			id: "0674FC450EE04C8E"
+			title: "欢迎来到Create: K"
+			type: "checkmark"
+		}]
+		title: "欢迎来到机械动力：开拓"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "欢迎游玩~"
+}

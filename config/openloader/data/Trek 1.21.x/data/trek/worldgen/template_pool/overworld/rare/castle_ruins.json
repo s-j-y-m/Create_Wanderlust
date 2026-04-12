@@ -1,0 +1,15 @@
+{
+    "name": "castle_ruins",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "location": "trek:overworld/rare/castle_ruins",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+  }

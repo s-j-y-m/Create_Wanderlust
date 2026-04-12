@@ -1,0 +1,69 @@
+{
+    "structures": [
+        {
+            "structure": "trek:overworld/very_common/crystal_rock",
+            "weight": 3
+        },
+        {
+            "structure": "trek:overworld/very_common/mid_rock_thin",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/short_rock",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/short_wide_1",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/short_wide_2",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/short_wide_3",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/tall_thin_2",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/tall_wide_3",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/wide_tall_rock",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/red_bulb_short",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/red_bulb_tall",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/red_bulb_tall_thin",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/red_bulb_tall_wide",
+            "weight": 10
+        },
+        {
+            "structure": "trek:overworld/very_common/red_bulb_very_short",
+            "weight": 10
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 8,
+        "spread_type": "triangular",
+        "salt": 14357663,
+        "frequency_reduction_method": "default",
+        "frequency": 1
+    }
+}

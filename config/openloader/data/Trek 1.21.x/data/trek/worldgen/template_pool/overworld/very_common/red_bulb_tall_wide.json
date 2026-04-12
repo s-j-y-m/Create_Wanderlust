@@ -1,0 +1,15 @@
+{
+  "name": "red_bulb_tall_wide",
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+          "weight": 1,
+          "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "trek:overworld/very_common/red_bulb_tall_wide",
+              "projection": "rigid",
+              "processors": "minecraft:empty"
+          }
+      }
+  ]
+}

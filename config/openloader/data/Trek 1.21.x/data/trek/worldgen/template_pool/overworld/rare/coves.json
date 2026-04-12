@@ -1,0 +1,15 @@
+{
+  "name": "coves",
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+          "weight": 1,
+          "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "trek:overworld/rare/coves",
+              "projection": "rigid",
+              "processors": "minecraft:empty"
+          }
+      }
+  ]
+}
