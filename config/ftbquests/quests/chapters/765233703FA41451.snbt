@@ -1,0 +1,68 @@
+{
+	autofocus_id: "52C94EB432AEF37C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "765233703FA41451"
+	group: "2FD943D922EE6214"
+	icon: "minecraft:grass_block"
+	id: "765233703FA41451"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52C94EB432AEF37C"
+			rewards: [{
+				count: 16
+				id: "2BB9EB5A77A97BCA"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "要想富，先撸树"
+			tasks: [{
+				id: "6BFB2FA9F7804CFC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "任意原木"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C94EB432AEF37C"]
+			icon: "minecraft:cherry_sapling"
+			id: "4090815F6A531B15"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E3B565AE6EAAA35"
+				table_id: 5525221852239122802L
+				type: "choice"
+			}]
+			subtitle: "没找到喜欢的木材？自己换一颗树苗吧！"
+			tasks: [{
+				consume_items: true
+				id: "13F3ACF669AA1859"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "获取树苗"
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	title: "启程"
+}

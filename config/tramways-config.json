@@ -1,0 +1,39 @@
+{
+  "trains": {
+    "*": {
+      "announcer": "en-GB-SoniaNeural",
+      "messages": {
+        "AT_TERMINUS": [
+          "This is, $current. This tram terminates here."
+        ],
+        "PRE_TERMINUS_AT_STATION": [
+          "This is, $current. The next stop is, $next, $next_extra, which is the last stop."
+        ],
+        "AFTER_STATION": [
+          "This tram is for, $end. The next stop is, $next, $next_extra."
+        ],
+        "PRE_TERMINUS_AFTER_STATION": [
+          "The next stop is, $next, $next_extra, which is the last stop."
+        ],
+        "AT_STATION": [
+          "This is, $current. This tram is for, $end. The next stop is, $next, $next_extra."
+        ]
+      }
+    }
+  },
+  "stations": {
+    "*": {
+      "alias": null,
+      "extra": null,
+      "announcer": "en-GB-SoniaNeural",
+      "messages": {
+        "WITHOUT_PLATFORM": [
+          "The next train to arrive will be a $train_name service to $destination."
+        ],
+        "WITH_PLATFORM": [
+          "The next train to arrive at platform $platform will be a $train_name service to $destination."
+        ]
+      }
+    }
+  }
+}

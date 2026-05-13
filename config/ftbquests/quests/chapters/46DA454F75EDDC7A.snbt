@@ -1,0 +1,157 @@
+{
+	autofocus_id: "2CCD01615D4B5514"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "46DA454F75EDDC7A"
+	group: "2FD943D922EE6214"
+	icon: "trailandtales_delight:cherry_petal"
+	id: "46DA454F75EDDC7A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CCD01615D4B5514"]
+			description: [
+				"没错，你现在可以在&b空中再次点击[空格]&r来进行&a二段跳！"
+				""
+				"这很酷不是吗？"
+				""
+				"而且，现在你可以&b在方块的侧面按[Shift]&r来趴在上面，这对你爬山的时候有很大的帮助！"
+				""
+				"最后，你现在可以&a直接越过栅栏&r，无需在上面铺地毯了！"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77A9FA0781F091B5"
+			rewards: [{
+				id: "5BE90D447FC0132A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "免费云朵瓶"
+			tasks: [{
+				id: "78768493FAFD08D6"
+				type: "checkmark"
+			}]
+			title: "二段跳！"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: ["这里是关于本包的一些小提示，看完再玩以获得更好的体验"]
+			id: "2CCD01615D4B5514"
+			rewards: [{
+				id: "11D4526CB89F0DDE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "38A82DD969FF05B1"
+				title: "一些小tips"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CCD01615D4B5514"]
+			description: [
+				"不知道你是不是和我一样，下矿也不爱带火把"
+				""
+				"然后看着大型的矿洞却步，然而即使带了火把也难以看清整个矿洞"
+				""
+				"不用担心，现在按&b[T]&r即可切换无限的夜视！"
+				""
+				"如果你不喜欢夜视的效果，也可以使用"
+				"&e/gamma set max&r这条指令切换到伽马复写，照亮你的前路！"
+			]
+			icon: "minecraft:ender_eye"
+			id: "6F1D67635E63905D"
+			rewards: [{
+				count: 16
+				id: "3281E86AA92FA244"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "再也不用敲指令给夜视辣！"
+			tasks: [{
+				id: "6D0310A1CD252C34"
+				type: "checkmark"
+			}]
+			title: "无限夜视"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CCD01615D4B5514"]
+			description: [
+				"在原版里，你可能会把望远镜当成没用的垃圾撇在一边"
+				""
+				"但是在这里，只要你的背包里有望远镜，你就可以按&b[Z]&r键来快速激活望远镜！"
+				""
+				"还能通过&b[鼠标滚轮]&r来进行缩放！"
+			]
+			id: "310391D4F518A65B"
+			rewards: [{
+				id: "565F80B63A6B497C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "相信我，这玩意现在比C键缩放好使"
+			tasks: [{
+				id: "675444EFBFB33AB2"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CCD01615D4B5514"]
+			description: [
+				"灯笼，无疑是一个优雅的照明手段"
+				""
+				"你可以手提着它在夜间赶路，也可以把它挂在墙上照亮自己的小家"
+				""
+				"在这里，你还可以把它装在&d[腰带]&r栏位上，让你化身一个移动的光源！"
+			]
+			id: "63C795B76050D6B3"
+			rewards: [{
+				id: "2BD44F37CF71A6E8"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "\\o/\\o/\\o/"
+			tasks: [{
+				id: "3BB96C39BC68E1B3"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"有一些模组需要单独讲一讲，"
+				"我把他们独立到另外的章节组里了"
+				""
+				"详见&e[百宝囊]&r章节组"
+			]
+			id: "2939D01D5A50A87D"
+			tasks: [{
+				id: "3B130469CD41A130"
+				title: "模组介绍"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["玩之前最好先读一读哦~"]
+	title: "Tips"
+}

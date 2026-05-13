@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "civillis"
+	group: "18F6D3A6AF0225BF"
+	icon: "civil:civil_detector"
+	id: "22E2D2E1E9B867AD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e文礼[Civillis]&r是一个原版刷怪机制优化模组（生存建筑向），核心理念是：建筑带来文明，文明阻止刷怪。"
+				""
+				"该模组特点是自然刷怪防控。任何标示着“文明痕迹”的方块，例如床、篝火、各种工作台+照明灯具、信标等，组合在一起时都会产生非常强力的退怪效果。基地规模越大，保护范围越夸张。不需要任何指令、仪式或特殊方块，你只需像往常一样建筑，保护便随之而来。"
+				""
+				"&l&o离开太久，文明会逐渐衰落。但真正的城市永不陷落。"
+				"{@pagebreak}"
+				"该模组划分了四种区域："
+				""
+				"&b荒野&r、文明、&c谨慎&r、&d祭坛"
+				""
+				"[ \"可以使用\", { \"text\": \"[文明检测器]\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1AFB799938C12C07\" } }, \"等来检测所处的区域\" ]"
+				"{@pagebreak}"
+				"关于文明区域"
+				""
+				"   文明不是“圈地”，而是超大范围内文明节点间的实时相互作用。主要特性有两个："
+				"- 文明聚变。两个分离的小块文明会聚变为一大块完整文明"
+				"- 文明疲倦。同一区块内，大量摆放文明方块不会有太大帮助"
+				""
+				"↓↓↓"
+				"{\"text\":\"详细可见该教程\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.bilibili.com/opus/1198866908723544066\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"打开网页\"}}}"
+			]
+			icon: "minecraft:clock"
+			id: "2E096B38FB3A8058"
+			subtitle: "&m合乎周礼"
+			tasks: [{
+				id: "107308CB4857494E"
+				title: "文礼"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E096B38FB3A8058"]
+			description: [
+				"这是模组中是第一个可以被合成出来的模组物品"
+				""
+				"拿着它&b[右键]&r，可以探测附近的&a*80*&r格的区域状态"
+				""
+				"若处于文明区域，会以*白色末地烛*粒子标记"
+				""
+				"若处于荒野区域，会以&b*蓝色灵魂火*&r粒子标记"
+				""
+				"若处于危险区域，会以&c*红色的火焰*&r粒子标记"
+				""
+				"若处于祭坛区域，会以&d*紫色的末影*&r粒子标记"
+				""
+				"同时也会以相同颜色的边界标记区域的范围"
+				"（荒野不会有边界标记）"
+			]
+			id: "1AFB799938C12C07"
+			rewards: [{
+				id: "6247A77250AD66AD"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39D709C9A56FC80C"
+				item: "civil:civil_detector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2E096B38FB3A8058"
+				"1AFB799938C12C07"
+			]
+			description: [
+				"这是一个多方块结构，搭建方法也很简单"
+				""
+				"仅需要你在钟的正下方一格放置一块磁石"
+				"&7&m无论是悬挂或者放置在磁石上都行&r"
+				""
+				"你就可以激活这个多方块结构"
+				""
+				"&b[右键]&r磁石上的钟，就可以探索&a*160*&r格周围区域的状态"
+				""
+				"另外，钟和磁石本身可以提供较多的文明值"
+				"因此这个结构适合放在文明区域边界"
+			]
+			id: "4C2FF962A752F1D2"
+			rewards: [{
+				id: "1E40580791DC196A"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			subtitle: "&m编钟"
+			tasks: [{
+				id: "5FE40641BB446607"
+				item: "minecraft:bell"
+				type: "item"
+			}]
+			title: "固定文明检测器"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AFB799938C12C07"]
+			description: [
+				"因为文礼拥有非常强势的文明影响范围，"
+				"许多刷怪塔不经特殊改造可能会有严重的效率折损，"
+				"甚至彻底罢工。"
+				""
+				"不过别担心，文礼照顾到这一点了。"
+				"你可以激活一个刷怪祭坛来人为创造不文明区域。"
+				""
+				"{@pagebreak}"
+				"方法也很简单："
+				""
+				"只需要在哭泣的黑曜石上放置一个灵魂篝火，"
+				"然后拿着骨头右键献祭它，等篝火熄灭，"
+				"即可无视&a*48x48x16*&r的文明区域创建刷怪区域！"
+				""
+				"实际上，祭坛甚至自带一点聚怪能力，"
+				"区域内刷怪概率高于普通黑暗区域。"
+				"对于文明区域内的刷怪塔，"
+				"只需在实际刷怪位置用一个或多个祭坛保证覆盖即可。"
+				""
+				"想要关闭也很简单，只需要重新点燃篝火，"
+				"或者破坏祭坛结构即可"
+				""
+				"{@pagebreak}"
+				"刷怪祭坛还有隐藏用法，只需要在区域内放置怪物头颅，"
+				"就可以更改怪物刷新的概率！"
+				"例如：原本只刷史莱姆的祭坛区，放置4个僵尸头颅后，开始刷出僵尸，"
+				"放置10个僵尸头颅后，祭坛区就只刷僵尸了！"
+				"↓↓↓"
+				"{\"text\":\"详细可见该教程\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.bilibili.com/opus/1200106715458043910\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"打开网页\"}}}"
+			]
+			icon: "minecraft:soul_campfire"
+			id: "78208FBEB551989F"
+			rewards: [
+				{
+					id: "0816281268C38204"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "14774DD4E246A8A4"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "&m亡灵军团来咯~"
+			tasks: [{
+				id: "19D3A1CCCFFD2A28"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			title: "刷怪祭坛"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AFB799938C12C07"]
+			id: "0E48C5422FA2DD55"
+			tasks: [{
+				id: "33EDA04158EA7DAA"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+	]
+	title: "文礼"
+}

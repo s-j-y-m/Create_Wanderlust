@@ -1,0 +1,16 @@
+{
+  "center": {
+    "f_123285_": -1688,
+    "f_123286_": 320,
+    "f_123289_": -3010
+  },
+  "quartExpand": 1,
+  "quartStride": 1,
+  "samplerType": "AUTO",
+  "dimension": {
+    "f_135804_": "minecraft",
+    "f_135805_": "overworld",
+    "lightspeed$hash": -672727247
+  },
+  "hideAllStructures": false
+}
