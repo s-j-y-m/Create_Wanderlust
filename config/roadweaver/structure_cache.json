@@ -2072,6 +2072,14 @@
       ]
     },
     {
+      "id": "trials:trials_chambers",
+      "displayName": "Trials Chambers",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "youkaishomecoming:cirno_nest",
       "displayName": "Cirno Nest",
       "isVanilla": false,
@@ -2423,6 +2431,13 @@
         "terralith:mage_tower_spring",
         "terralith:mage_tower_summer",
         "terralith:mage_tower_winter"
+      ]
+    },
+    {
+      "tagId": "trials:on_trials_maps",
+      "displayName": "#On Trials Maps",
+      "structureIds": [
+        "trials:trials_chambers"
       ]
     },
     {

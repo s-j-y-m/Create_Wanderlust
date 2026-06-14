@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["这木头可真木头啊"]
 			id: "52C94EB432AEF37C"
 			rewards: [{
 				count: 16
@@ -36,6 +37,7 @@
 		}
 		{
 			dependencies: ["52C94EB432AEF37C"]
+			description: ["&m&7我说你是不是点进来急头白脸的想换棵樱花树苗（"]
 			icon: "minecraft:cherry_sapling"
 			id: "4090815F6A531B15"
 			repeatable: true
@@ -48,6 +50,7 @@
 			subtitle: "没找到喜欢的木材？自己换一颗树苗吧！"
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "13F3ACF669AA1859"
 				item: {
 					Count: 1
@@ -56,12 +59,169 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "任意原木*3"
 				type: "item"
 			}]
 			title: "获取树苗"
 			x: -2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["52C94EB432AEF37C"]
+			description: [
+				"在平时，或许圆石最大的用处就是造熔炉了，"
+				"但是，这里是机械动力！"
+				""
+				"接下来向你走来的是..."
+				"&l圆石刷铁机"
+				"&l圆石刷金机"
+				"&l圆石刷安山合金机"
+				"&l圆石刷沙机..."
+				""
+				"没错，圆石和粉碎轮的配合就是这么超模，"
+				"而且实际上的配方还不止这些，"
+				"更多的产物，等你探索！"
+			]
+			id: "34E9C5E55065A149"
+			rewards: [{
+				count: 4
+				id: "1AB6CCC868FB1CD1"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			subtitle: "获得升级"
+			tasks: [{
+				id: "5700CC4B9A1E96E8"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34E9C5E55065A149"]
+			description: [
+				"作为原版的烧炼工具之一，"
+				"它现在已经过时啦！"
+				""
+				"现在登场的是..."
+				"[ \" \", { \"text\": \"鼓!风!机!\", \"color\":\"gold\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C085FA2F76A47D8\" } }, \"\" ]"
+				""
+				"一机更比十炉强！"
+				"这可不是吹嘘，度过前期后，"
+				"在基地里摆上一个鼓风机，你就明白了。"
+			]
+			id: "7261EC16B3B014E4"
+			rewards: [{
+				count: 16
+				id: "57C449C6447ACC09"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "&m&cW a s t e d"
+			tasks: [{
+				id: "55B2726187335598"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34E9C5E55065A149"]
+			id: "5798F6925E553FF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B7CD1CECF09AAE3"
+				table_id: 2365549806833429241L
+				type: "choice"
+			}]
+			subtitle: "这不是铁锭吗？"
+			tasks: [{
+				id: "55DB3E5B7CADECDE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5798F6925E553FF3"]
+			id: "0370F7E6AD344EC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64F00844E6E12908"
+				table_id: 2365549806833429241L
+				type: "choice"
+			}]
+			subtitle: "哇！钻须！"
+			tasks: [{
+				id: "723F2D8B09217931"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5798F6925E553FF3"]
+			id: "2F873093F2616009"
+			rewards: [{
+				id: "4E2EE6DABB89F6D5"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "我们需要更深入些"
+			tasks: [{
+				id: "4D1B1FE66A6B8848"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "&c下界"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F873093F2616009"]
+			id: "64892AD0FD374C94"
+			tasks: [{
+				id: "01BB3215DFC02435"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F873093F2616009"]
+			id: "527B48B6120A3C81"
+			rewards: [
+				{
+					count: 4
+					id: "3E484129BE5F7C33"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "07168160FC11654A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "486907FE245E27DE"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
 		}
 	]
 	title: "启程"

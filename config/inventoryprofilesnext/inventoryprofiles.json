@@ -1,15 +1,9 @@
 {
     "ModSettings": {
+        "enable_lock_slots_per_server": false,
         "first_run": false
     },
     "GuiSettings": {
         "continuous_crafting_saved_value": false
-    },
-    "Hotkeys": {
-        "sort_inventory": {
-            "main": {
-                "keys": "BUTTON_3"
-            }
-        }
     }
 }

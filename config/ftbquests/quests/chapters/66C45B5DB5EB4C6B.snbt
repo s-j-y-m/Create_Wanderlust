@@ -1,0 +1,333 @@
+{
+	autofocus_id: "24CE203629336F16"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "66C45B5DB5EB4C6B"
+	group: "22E5384F9851107E"
+	icon: "create:andesite_alloy"
+	id: "66C45B5DB5EB4C6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"恭喜你获得了第一块安山合金。"
+				""
+				"在机械动力的发展历程中，"
+				"它的重要性几乎比肩原版的第一块原木。"
+				""
+				"传动轴、齿轮、机壳……"
+				"无数机械都以它作为基础材料。"
+				""
+				"从这一刻开始，"
+				"你已经可以开启一场轰轰烈烈的工业革命了！"
+			]
+			id: "24CE203629336F16"
+			rewards: [{
+				count: 32
+				id: "3B185CD1735D1FD7"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "革命的开端"
+			tasks: [{
+				id: "598602F94F016252"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24CE203629336F16"]
+			description: [
+				"在平时，你可能只是随手丢弃它，"
+				""
+				"但在机械动力的发展历程中，"
+				"安山岩的重要程度远超你的想象。"
+				""
+				"无论是安山合金，"
+				"还是各种控制机构，"
+				"都离不开这种随处可见的灰色岩石。"
+				""
+				"有时候，"
+				"工业革命的起点并不是钢铁与蒸汽，"
+				""
+				"而是一块不起眼的安山岩。"
+			]
+			id: "481CA9B229C6B21B"
+			rewards: [
+				{
+					count: 32
+					id: "44993DC029EF2D6D"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0E4765839ABFD601"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BC681DE66E5BD40"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24CE203629336F16"]
+			description: [
+				"一根平平无奇的杆子？"
+				""
+				"不！它是一座桥梁，"
+				"构筑起了机器之间的应力传输。"
+				""
+				"无论是水车的吱呀、锅炉的轰鸣、电机的噪音..."
+				"产出的应力，全得靠这根传动杆输出。"
+				""
+				"不仅如此，许多机械构件，"
+				"也得靠它合成。"
+			]
+			id: "731B7F52B74DA0B5"
+			rewards: [{
+				count: 16
+				id: "463913F120B9D665"
+				item: "create:shaft"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03EFBD6FE633F895"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["731B7F52B74DA0B5"]
+			description: ["齿轮，机械动力中不可或缺的一个构件，"]
+			id: "7966A9A8C64609F1"
+			rewards: [{
+				count: 16
+				id: "4EB3692245BE2219"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B07D09B07D49384"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7966A9A8C64609F1"]
+			id: "3DB3D44BAC22FF30"
+			tasks: [{
+				id: "514E2077D435F28A"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0908BD5763C64843"]
+			description: [
+				"看起来你选择了成为风车仙人，"
+				"的确，风车是前期十分优秀的应力来源，"
+				"你可以往上面粘羊毛或者放风帆。"
+				""
+				"与水车不同，"
+				"风车的应力大小取决于帆的数量。"
+				""
+				"每拥有8个帆类方块，"
+				"风车就会获得1RPM转速与512SU应力。"
+				""
+				"当帆类方块达到128个时，风车将达到极限，"
+				"可以为你提供：&a16RPM&r的转速 与 &a8192su&r的应力。"
+				""
+				"&l如果风车没有转起来，"
+				"&l记得检查帆类方块的数量是否足够，"
+				"&l以及它们是否都正确连接到了风车轴承上哦~"
+				"[ \"*如果你放的是羊毛，记得往上面\", { \"text\": \"打胶\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CCDCD590622D2C7\" } }, \"！\" ]"
+			]
+			id: "53191E01D1E6AA6E"
+			rewards: [{
+				count: 32
+				id: "5DF0E92DEA6DD80E"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "风车仙人"
+			tasks: [{
+				id: "5BCE8F526405855A"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53191E01D1E6AA6E"]
+			description: [
+				"你是不是以为风帆框架需要填充羊毛？"
+				"不，其实这两个东西的效果一模一样，"
+				"甚至可以在合成栏里互相转换！"
+				""
+				"所以，在野外搜刮的时候，不要忘记带上风帆框架~"
+			]
+			id: "50EDA7C7586BE1EB"
+			rewards: [{
+				count: 16
+				id: "41DF1B6134A5AF2B"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6481CD1ABF2D3F94"
+					item: "create:sail_frame"
+					type: "item"
+				}
+				{
+					id: "6332B316FAA0A08D"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "风帆和风帆框架"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0908BD5763C64843"]
+			description: [
+				"看起来你选择了成为水车仙人，"
+				"的确，水车是一个不错的前期应力来源。"
+				""
+				"每个水车可以给你带来&a256su&r的应力，"
+				"同时还有&a8RPM&r的转速。"
+				""
+				"它们还可以串联起来，获得更多的应力，"
+				"但是转速不会叠加。"
+				""
+				"&l在串联的时候，记得小心检查，"
+				"&l是不是每一个水车上方都有水驱动？"
+				"&l如果没有，那么那个水车不会提供应力哦~"
+			]
+			id: "66614B703D461865"
+			rewards: [{
+				count: 6
+				id: "746AD39FC117EFA8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			subtitle: "水车仙人"
+			tasks: [{
+				id: "1941E1FD6BC7C5F5"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66614B703D461865"]
+			description: [
+				"大水车，&m属于是水车Plus版本，"
+				"它占地更大，而且拥有更多的应力和更慢的转速。"
+				""
+				"每个大水车可以给你提供&a512su&r的应力,"
+				"但是只有可怜的&a4RPM&r的转速。"
+				""
+				"在串联方面，特性和水车保持一致，"
+				"不要忘记检查水源哦~"
+			]
+			id: "765B46636DA5AD5B"
+			rewards: [{
+				count: 3
+				id: "1FF045FF8210DC12"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			subtitle: "水车Plus"
+			tasks: [{
+				id: "134004552B1935A0"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "2CCDCD590622D2C7"
+			rewards: [{
+				id: "520520850DA1AD5B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&m不管了，打一管胶先！"
+			tasks: [{
+				id: "65B69D45A200D892"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "4C085FA2F76A47D8"
+			tasks: [{
+				id: "34AC8D8B0C1B1FF8"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["731B7F52B74DA0B5"]
+			description: [
+				"水车和风车，"
+				"作为前期最容易获得的两个动力源，"
+				"它们各有优劣，现在，选一个吧！"
+			]
+			id: "0908BD5763C64843"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "109467ACE6456D96"
+				table_id: 2444699450400309051L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3424A14C8468F111"
+				title: "风车 or 水车？"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "安山时代"
+}

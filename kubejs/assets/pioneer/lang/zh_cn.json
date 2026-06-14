@@ -1,3 +1,5 @@
 {
-    "item.pioneer.test":"§k123§r§6§n§l§o测 试 物 品§r§r§r§r§k123§r"
+    "item.pioneer.test": "§k123§r§6§n§l§o测 试 物 品§r§r§r§r§k123§r",
+    "item.pioneer.wooden_mechanical_heart": "木制机械之心",
+    "curios.identifier.mechanical_heart": "机械之心"
 }

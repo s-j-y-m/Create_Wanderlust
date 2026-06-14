@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "67B411398C0B704F"
+	group: "22E5384F9851107E"
+	icon: "create:sturdy_sheet"
+	id: "67B411398C0B704F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "2834BB58652540D2"
+		tasks: [{
+			id: "7BE220558640E8B4"
+			item: "create:sturdy_sheet"
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+	title: "列车时代"
+}

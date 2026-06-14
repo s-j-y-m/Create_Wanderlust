@@ -3,24 +3,28 @@
         "buttonHints": {
             "SHOW_EDITOR": {
                 "horizontalOffset": -10,
-                "top": 24
+                "top": 39
             },
             "SETTINGS": {
                 "horizontalOffset": -10,
-                "top": 22
+                "top": 36
             }
         }
     },
-    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+    "civil.towncenter.gui.TownCenterMainScreen": {
+        "ignore": true,
         "buttonHints": {
-            "SHOW_EDITOR": {
-                "horizontalOffset": 130,
-                "top": 22
-            },
             "SETTINGS": {
-                "horizontalOffset": 146,
-                "top": 7
+                "horizontalOffset": -10,
+                "top": 48
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -10,
+                "top": 50
             }
         }
+    },
+    "civil.towncenter.gui.TownCenterMenu": {
+        "ignore": true
     }
 }

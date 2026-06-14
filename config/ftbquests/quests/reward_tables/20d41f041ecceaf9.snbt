@@ -1,0 +1,12 @@
+{
+	id: "20D41F041ECCEAF9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 10, item: "minecraft:iron_ingot" }
+		{ count: 6, item: "minecraft:gold_ingot" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ count: 16, item: "create:andesite_alloy" }
+	]
+	title: "矿石"
+}

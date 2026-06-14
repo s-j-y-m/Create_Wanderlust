@@ -375,6 +375,12 @@
         "value": "AUTO"
       },
       "pass": 3
+    },
+    "platform": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
     }
   }
 }

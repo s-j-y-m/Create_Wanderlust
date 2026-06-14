@@ -13,6 +13,7 @@
 		{ item: "minecraft:mangrove_propagule" }
 		{ item: "minecraft:azalea" }
 		{ item: "minecraft:flowering_azalea" }
+		{ item: "minecraft:pale_oak_sapling" }
 	]
 	title: "树苗"
 }

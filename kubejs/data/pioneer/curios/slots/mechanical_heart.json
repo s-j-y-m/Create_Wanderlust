@@ -1,0 +1,8 @@
+{
+    "size": 1,
+    "order": 210,
+    "icon": "pioneer:item/wooden_mechanical_heart",
+    "validators": [
+        "curios:tag"
+    ]
+}

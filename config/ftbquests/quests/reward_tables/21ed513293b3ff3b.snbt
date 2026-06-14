@@ -1,0 +1,10 @@
+{
+	id: "21ED513293B3FF3B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "create:water_wheel" }
+		{ count: 2, item: "create:windmill_bearing" }
+	]
+	title: "动力源"
+}
