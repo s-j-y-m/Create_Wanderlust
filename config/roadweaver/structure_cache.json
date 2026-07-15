@@ -909,49 +909,65 @@
       "id": "terralith:glacial_hut",
       "displayName": "Glacial Hut",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:igloo",
       "displayName": "Igloo",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:mage_complex",
       "displayName": "Mage Complex",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:mage_tower",
       "displayName": "Mage Tower",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:mage_tower_autumn",
       "displayName": "Mage Tower Autumn",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:mage_tower_spring",
       "displayName": "Mage Tower Spring",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:mage_tower_summer",
       "displayName": "Mage Tower Summer",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:mage_tower_winter",
       "displayName": "Mage Tower Winter",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:rubble_desert",
@@ -1013,7 +1029,9 @@
       "id": "terralith:underground/frosted_dungeon",
       "displayName": "Underground/frosted Dungeon",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:underground/giant_bee_hive",
@@ -1027,7 +1045,9 @@
       "id": "terralith:underground/mining_outpost",
       "displayName": "Underground/mining Outpost",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:underground/oak_cabin",
@@ -1041,7 +1061,9 @@
       "id": "terralith:underground/old_refinery",
       "displayName": "Underground/old Refinery",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:underground/sunken_tower",
@@ -1069,7 +1091,9 @@
       "id": "terralith:valley_lodge",
       "displayName": "Valley Lodge",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "terralith:witch_hut",

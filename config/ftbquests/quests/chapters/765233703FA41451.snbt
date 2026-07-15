@@ -147,6 +147,7 @@
 		}
 		{
 			dependencies: ["5798F6925E553FF3"]
+			dependency_requirement: "one_started"
 			id: "0370F7E6AD344EC6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -189,6 +190,7 @@
 		}
 		{
 			dependencies: ["2F873093F2616009"]
+			dependency_requirement: "one_started"
 			id: "64892AD0FD374C94"
 			tasks: [{
 				id: "01BB3215DFC02435"
@@ -200,6 +202,7 @@
 		}
 		{
 			dependencies: ["2F873093F2616009"]
+			dependency_requirement: "one_started"
 			id: "527B48B6120A3C81"
 			rewards: [
 				{

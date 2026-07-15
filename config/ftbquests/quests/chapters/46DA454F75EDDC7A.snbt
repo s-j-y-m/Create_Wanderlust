@@ -19,6 +19,8 @@
 				"而且，现在你可以&b在方块的侧面按[Shift]&r来扒在上面，这对你爬山的时候有很大的帮助！"
 				""
 				"最后，你现在可以&a直接越过栅栏&r，无需在上面铺地毯了！"
+				""
+				"&7&m理论上你可以靠它来无伤完成 上天入地 成就（"
 			]
 			icon: {
 				Count: 1
@@ -43,7 +45,10 @@
 			y: -0.5d
 		}
 		{
-			description: ["这里是关于本包的一些小提示，看完再玩以获得更好的体验"]
+			description: [
+				"这里是关于本包的一些小提示，"
+				"看完再玩以获得更好的体验"
+			]
 			id: "2CCD01615D4B5514"
 			rewards: [{
 				id: "11D4526CB89F0DDE"
@@ -134,6 +139,94 @@
 			}]
 			x: 1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["2CCD01615D4B5514"]
+			description: [
+				"Chunky 可以为你快速且安全地预生成区块，"
+				"可显著降低跑图时的服务器卡顿,"
+				"同时，在单人存档中，它还可以提前生成voxy的LOD区块，"
+				"简单来说，建档的时候使用一下voxy，"
+				"你就可以提前看到超远的距离！"
+				""
+				"下页介绍指令用法，"
+				"你也可以使用下个任务中的奖励指令来生成1500*1500格的区域"
+				"(这是一个比较推荐的距离，可以看的较远，并且时间与存档大小适中）"
+				""
+				"{@pagebreak}"
+				"首先输入"
+				"/chunky radius [X]"
+				"选中以世界0,0为中心的[X]格距离的正方形，"
+				"这个值可以自定义，建议小于1500"
+				""
+				"再输入"
+				"/chunky start"
+				"开始生成区块，过程有些卡顿掉帧是正常的，"
+				"可以挂机等待生成完毕"
+				""
+				"有时候"
+				"chuny会警告你，这时候就需要输入"
+				"/chunky confirm"
+				"来无视风险继续安装了"
+				""
+				"最后，等待屏幕顶端的进度条走完就行啦！"
+				""
+				"{@pagebreak}"
+				"如果你是单人存档，在屏幕顶端的进度条走完之后，"
+				"就可以使用Voxy的导入存档功能了！"
+				""
+				"只需要输入"
+				"/voxy import world  \"存档名\""
+				"然后tab补全选择你的存档名就可以了！"
+			]
+			icon: "minecraft:grass_block"
+			id: "173E007A8520B462"
+			subtitle: "预加载区块"
+			tasks: [{
+				id: "0BAC927D308C9BB2"
+				title: "Chuny"
+				type: "checkmark"
+			}]
+			title: "Chunky"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["173E007A8520B462"]
+			description: ["&c&l&n注意，必须按顺序领取！！！"]
+			icon: "minecraft:dirt_path"
+			id: "5B86A6EFD786B9B2"
+			rewards: [
+				{
+					command: "/chunky radius 1500"
+					elevate_perms: true
+					id: "5E967C3C07DA17FA"
+					title: "1.选择区域范围"
+					type: "command"
+				}
+				{
+					command: "/chunky start"
+					elevate_perms: true
+					id: "2190A27B5C287A93"
+					title: "2.开始生成"
+					type: "command"
+				}
+				{
+					command: "/chunky confirm"
+					elevate_perms: true
+					id: "7E7043BEF802A347"
+					title: "3.确认生成"
+					type: "command"
+				}
+			]
+			subtitle: "自动生成1500*1500格的存档"
+			tasks: [{
+				id: "6C4533AFD6FCF6A7"
+				title: "chunky懒人指令"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["玩之前最好先读一读哦~"]

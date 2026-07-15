@@ -1,28 +1,28 @@
 [DLC]
-  [mod:DLC|mods/§d移植内容/Platform-forge-1.20.1-1.3.4.jar]
+  ["mod:DLC|mods/§d移植内容/Platform-forge-1.20.1-1.3.4.jar"]
     enabled = true
     appliedTargets = ["mods\\Platform-forge-1.20.1-1.3.4.jar"]
 
-  [mod:DLC|mods/§a视觉优化/voxy-0.2.14-alpha.jar]
+  ["mod:DLC|mods/§a视觉优化/voxy-0.2.14-alpha.jar"]
     enabled = true
     appliedTargets = ["mods\\voxy-0.2.14-alpha.jar"]
 
-  [mod:DLC|mods/§a视觉优化/[Leawind的第三人称] leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar]
+  ["mod:DLC|mods/§a视觉优化/[Leawind的第三人称] leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar"]
     enabled = true
     appliedTargets = ["mods\\[Leawind的第三人称] leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar"]
 
-  [mod:DLC|mods/§d移植内容/[Trials Chambers] Trials-Final.jar]
+  ["mod:DLC|mods/§d移植内容/[Trials Chambers] Trials-Final.jar"]
     enabled = true
     appliedTargets = ["mods\\[Trials Chambers] Trials-Final.jar"]
 
-  [mod:DLC|mods/§6体验优化/sweeper_maid-1.1.2.jar]
+  ["mod:DLC|mods/§6体验优化/sweeper_maid-1.1.2.jar"]
     enabled = true
     appliedTargets = ["mods\\sweeper_maid-1.1.2.jar"]
 
-  [mod:DLC|mods/§d移植内容/VanillaBackport-forge-1.20.1-1.1.7.10.jar]
+  ["mod:DLC|mods/§d移植内容/VanillaBackport-forge-1.20.1-1.1.7.10.jar"]
     enabled = true
     appliedTargets = ["mods\\VanillaBackport-forge-1.20.1-1.1.7.10.jar"]
 
-  [mod:DLC|mods/§a视觉优化/[落叶] fallingleaves-1.20.1-2.1.2.jar]
+  ["mod:DLC|mods/§a视觉优化/[落叶] fallingleaves-1.20.1-2.1.2.jar"]
     enabled = true
     appliedTargets = ["mods\\[落叶] fallingleaves-1.20.1-2.1.2.jar"]

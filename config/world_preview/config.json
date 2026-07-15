@@ -1,5 +1,8 @@
 {
-  "savedSeeds": [],
+  "savedSeeds": [
+    "Q7AaV37nSgaQ8DLL",
+    "skgwoZ2nQUG16lo5"
+  ],
   "showInPauseMenu": true,
   "showPlayer": true,
   "showControls": true,
@@ -17,5 +20,5 @@
   "cacheInNew": false,
   "enableCompression": true,
   "colorMap": "world_preview:inferno",
-  "numThreads": 6
+  "numThreads": 8
 }

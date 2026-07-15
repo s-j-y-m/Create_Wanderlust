@@ -8,119 +8,136 @@
 	id: "45127DB595B07126"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [""]
-		icon: "create:wrench"
-		id: "0A4D526F93554428"
-		rewards: [
-			{
-				id: "69344D3E24C2A2B3"
-				item: "sophisticatedbackpacks:gold_backpack"
-				type: "item"
-			}
-			{
-				id: "6547AF7FAD861B67"
-				item: {
-					Count: 1
-					id: "minecraft:iron_sword"
-					tag: {
-						Damage: 0
-					}
+	quests: [
+		{
+			description: [""]
+			icon: "create:wrench"
+			id: "0A4D526F93554428"
+			rewards: [
+				{
+					id: "69344D3E24C2A2B3"
+					item: "sophisticatedbackpacks:gold_backpack"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "30283A60A6AD7556"
-				item: {
-					Count: 1
-					id: "minecraft:iron_axe"
-					tag: {
-						Damage: 0
+				{
+					id: "6547AF7FAD861B67"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "2B4CECCD9184488F"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
+				{
+					id: "30283A60A6AD7556"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "43468EB9A9387572"
-				item: {
-					Count: 1
-					id: "minecraft:iron_helmet"
-					tag: {
-						Damage: 0
+				{
+					id: "2B4CECCD9184488F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "7DD77B39F365B101"
-				item: {
-					Count: 1
-					id: "minecraft:iron_chestplate"
-					tag: {
-						Damage: 0
+				{
+					id: "43468EB9A9387572"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "5AD5BAF8EA784DBF"
-				item: {
-					Count: 1
-					id: "minecraft:iron_leggings"
-					tag: {
-						Damage: 0
+				{
+					id: "7DD77B39F365B101"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "06E8F217CD5A4BB3"
-				item: {
-					Count: 1
-					id: "minecraft:iron_boots"
-					tag: {
-						Damage: 0
+				{
+					id: "5AD5BAF8EA784DBF"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				count: 32
-				id: "306E567283838F01"
-				item: "kaleidoscope_cookery:mantou"
-				type: "item"
-			}
-			{
-				id: "61F61222F1C711BA"
-				item: "farmersrespite:blazing_chili"
-				type: "item"
-			}
-			{
-				id: "46A8FD4183BBEF17"
+				{
+					id: "06E8F217CD5A4BB3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "306E567283838F01"
+					item: "kaleidoscope_cookery:mantou"
+					type: "item"
+				}
+				{
+					id: "61F61222F1C711BA"
+					item: "farmersrespite:blazing_chili"
+					type: "item"
+				}
+			]
+			subtitle: "拿好这些物资，玩的开心!"
+			tasks: [{
+				id: "0674FC450EE04C8E"
+				title: "欢迎来到Create: K"
+				type: "checkmark"
+			}]
+			title: "欢迎来到机械动力：开拓"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A4D526F93554428"]
+			description: [
+				"为了方便您更加舒适的游玩本包，"
+				"[ \"在\", { \"text\": \"Tips章节\", \"color\": \"gold\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CCD01615D4B5514\" } }, \"里，我们介绍了一些本包的特性\" ]"
+			]
+			id: "4D2580253FEC4EE3"
+			rewards: [{
+				id: "387B493A559F362E"
 				item: "kaleidoscope_doll:doll_328"
 				type: "item"
-			}
-		]
-		subtitle: "拿好这些物资，玩的开心!"
-		tasks: [{
-			id: "0674FC450EE04C8E"
-			title: "欢迎来到Create: K"
-			type: "checkmark"
-		}]
-		title: "欢迎来到机械动力：开拓"
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			tasks: [{
+				id: "22F37DDE8DB5AF9F"
+				title: "关于Tips"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
 	title: "前言"
 }

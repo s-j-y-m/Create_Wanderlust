@@ -22,7 +22,7 @@
 	#A list of GUI screen superclasses that won't activate blur effect when opened.
 	blurBlacklist = ["net.minecraft.client.gui.screens.ChatScreen"]
 	#(Beta) Pause the game when inventory (also includes creative mode) opened.
-	inventoryPause = true
+	inventoryPause = false
 	#Framerate limit on window inactive (out of focus or minimized), 0 = no change.
 	#Range: 0 ~ 255
 	framerateInactive = 30

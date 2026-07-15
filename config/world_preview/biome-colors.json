@@ -5,6 +5,12 @@
     "b": 10,
     "cave": false
   },
+  "terralith:yellowstone": {
+    "r": 242,
+    "g": 175,
+    "b": 134,
+    "cave": false
+  },
   "youkaishomecoming:sakura_taiga": {
     "r": 30,
     "g": 144,

@@ -71,10 +71,15 @@
 				}
 			]
 			tasks: [{
-				id: "3BC681DE66E5BD40"
-				item: "minecraft:andesite"
-				type: "item"
+				icon: "minecraft:andesite"
+				id: "292533A64B4E493D"
+				observe_type: 0
+				timer: 0L
+				title: "观察安山岩"
+				to_observe: "minecraft:andesite"
+				type: "observation"
 			}]
+			title: "嘿，看，是安山岩！"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -128,6 +133,12 @@
 		{
 			dependencies: ["7966A9A8C64609F1"]
 			id: "3DB3D44BAC22FF30"
+			rewards: [{
+				count: 8
+				id: "1DD5DB6E37C0CBB0"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "514E2077D435F28A"
 				item: "create:large_cogwheel"
@@ -327,6 +338,17 @@
 			}]
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["0908BD5763C64843"]
+			id: "7DB72578F2C63B84"
+			tasks: [{
+				id: "1F0E89424377A9B9"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
 		}
 	]
 	title: "安山时代"
